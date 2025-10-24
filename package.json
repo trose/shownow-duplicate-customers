@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "eslint src/react --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint --config src/react/.eslintrc.json src/react --ext .js,.jsx,.ts,.tsx",
     "test": "npm run test:react && npm run test:salesforce",
     "test:react": "jest src/react",
     "test:salesforce": "sfdx force:apex:test:run --tests DuplicateMatcherTest,DuplicateRestServiceTest --resultformat human --codecoverage --wait 10",
@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "src/react/**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
+      "eslint --config src/react/.eslintrc.json --fix"
     ]
   },
   "keywords": [],
