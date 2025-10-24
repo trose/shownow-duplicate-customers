@@ -1,0 +1,144 @@
+{
+    "fileVersion": 0,
+    "serverMaxRevisionCounter": 41,
+    "sourceMembers": {
+        "Profile__Admin": {
+            "memberType": "Profile",
+            "serverRevisionCounter": 16,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "CustomField__Customer__c.Address__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 17,
+            "lastRetrievedFromServer": 17,
+            "isNameObsolete": false
+        },
+        "CustomField__Customer__c.Email__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 18,
+            "lastRetrievedFromServer": 18,
+            "isNameObsolete": false
+        },
+        "CustomField__Customer__c.Phone__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 19,
+            "lastRetrievedFromServer": 19,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Audit__c.Action__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 20,
+            "lastRetrievedFromServer": 20,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Audit__c.Details__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 21,
+            "lastRetrievedFromServer": 21,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Audit__c.Timestamp__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 22,
+            "lastRetrievedFromServer": 22,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Audit__c.User__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 23,
+            "lastRetrievedFromServer": 23,
+            "isNameObsolete": false
+        },
+        "CustomObject__Duplicate_Audit__c": {
+            "memberType": "CustomObject",
+            "serverRevisionCounter": 37,
+            "lastRetrievedFromServer": 37,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Match__c.Customer1__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 25,
+            "lastRetrievedFromServer": 25,
+            "isNameObsolete": false
+        },
+        "CustomObject__Duplicate_Match__c": {
+            "memberType": "CustomObject",
+            "serverRevisionCounter": 38,
+            "lastRetrievedFromServer": 38,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Match__c.Customer2__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 27,
+            "lastRetrievedFromServer": 27,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Match__c.Match_Score__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 29,
+            "lastRetrievedFromServer": 29,
+            "isNameObsolete": false
+        },
+        "CustomField__Duplicate_Match__c.Status__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 30,
+            "lastRetrievedFromServer": 30,
+            "isNameObsolete": false
+        },
+        "ApexClass__DuplicateMatcher": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 31,
+            "lastRetrievedFromServer": 31,
+            "isNameObsolete": false
+        },
+        "ApexClass__DuplicateRestService": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 32,
+            "lastRetrievedFromServer": 32,
+            "isNameObsolete": false
+        },
+        "ApexClass__TestDuplicateMatcher": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 33,
+            "lastRetrievedFromServer": 33,
+            "isNameObsolete": false
+        },
+        "ApexClass__TestDuplicateRestService": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 34,
+            "lastRetrievedFromServer": 34,
+            "isNameObsolete": false
+        },
+        "ApexTrigger__CustomerTrigger": {
+            "memberType": "ApexTrigger",
+            "serverRevisionCounter": 35,
+            "lastRetrievedFromServer": 35,
+            "isNameObsolete": false
+        },
+        "CustomObject__Customer__c": {
+            "memberType": "CustomObject",
+            "serverRevisionCounter": 36,
+            "lastRetrievedFromServer": 36,
+            "isNameObsolete": false
+        },
+        "ListView__Customer__c.All": {
+            "memberType": "ListView",
+            "serverRevisionCounter": 39,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "ListView__Duplicate_Audit__c.All": {
+            "memberType": "ListView",
+            "serverRevisionCounter": 40,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "ListView__Duplicate_Match__c.All": {
+            "memberType": "ListView",
+            "serverRevisionCounter": 41,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        }
+    }
+}

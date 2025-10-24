@@ -6,7 +6,8 @@
     <referenceTo>Customer__c</referenceTo>
     <relationshipLabel>Duplicate Matches (Customer 2)</relationshipLabel>
     <relationshipName>Duplicate_Matches_Customer2</relationshipName>
-    <required>true</required>
-    <trackHistory>false</trackHistory>
-    <type>Lookup</type>
+     <required>true</required>
+     <trackHistory>false</trackHistory>
+     <type>Lookup</type>
+     <deleteConstraint>Restrict</deleteConstraint>
 </CustomField>

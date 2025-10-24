@@ -4,7 +4,7 @@ public class DuplicateMatcher {
     private static final Decimal EMAIL_MATCH_SCORE = 50.0;
     private static final Decimal PHONE_MATCH_SCORE = 30.0;
     private static final Decimal NAME_SIMILARITY_SCORE = 20.0;
-    private static final Decimal THRESHOLD = 70.0;
+    private static final Decimal THRESHOLD = 50.0;
 
     // Method to find duplicates for a list of customers
     public static void findDuplicates(List<Customer__c> newCustomers) {
@@ -15,9 +15,9 @@ public class DuplicateMatcher {
         Set<String> names = new Set<String>();
 
         for (Customer__c cust : newCustomers) {
-            if (cust.Email__c != null) emails.add(cust.Email__c.toLowerCase());
+            if (cust.Email__c != null) emails.add(cust.Email__c);
             if (cust.Phone__c != null) phones.add(cust.Phone__c);
-            if (cust.Name != null) names.add(cust.Name.toLowerCase());
+            if (cust.Name != null) names.add(cust.Name);
         }
 
         // Query existing customers

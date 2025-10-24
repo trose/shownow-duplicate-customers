@@ -6,7 +6,8 @@
     <referenceTo>User</referenceTo>
     <relationshipLabel>Audit Logs</relationshipLabel>
     <relationshipName>Audit_Logs</relationshipName>
-    <required>true</required>
-    <trackHistory>false</trackHistory>
-    <type>Lookup</type>
+      <required>false</required>
+     <trackHistory>false</trackHistory>
+     <type>Lookup</type>
+     <deleteConstraint>SetNull</deleteConstraint>
 </CustomField>

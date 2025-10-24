@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "src/salesforce",
+      "default": true
+    }
+  ],
+  "name": "shownow-duplicate-customers",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "65.0"
+}

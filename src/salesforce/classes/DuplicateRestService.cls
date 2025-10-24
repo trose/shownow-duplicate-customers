@@ -30,10 +30,11 @@ global class DuplicateRestService {
             return 'Invalid parameters';
         }
 
-        Duplicate_Match__c match = [SELECT Id, Status__c FROM Duplicate_Match__c WHERE Id = :matchId LIMIT 1];
-        if (match == null) {
+        List<Duplicate_Match__c> matches = [SELECT Id, Status__c FROM Duplicate_Match__c WHERE Id = :matchId LIMIT 1];
+        if (matches.isEmpty()) {
             return 'Match not found';
         }
+        Duplicate_Match__c match = matches[0];
 
         if (action == 'confirm') {
             match.Status__c = 'Confirmed';

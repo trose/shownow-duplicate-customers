@@ -1,5 +1,5 @@
 @isTest
-public class DuplicateMatcherTest {
+public class TestDuplicateMatcher {
 
     @TestSetup
     static void makeData() {

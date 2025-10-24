@@ -1,5 +1,5 @@
 @isTest
-public class DuplicateRestServiceTest {
+public class TestDuplicateRestService {
 
     @TestSetup
     static void makeData() {

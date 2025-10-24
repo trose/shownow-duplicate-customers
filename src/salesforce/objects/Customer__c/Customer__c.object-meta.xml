@@ -42,10 +42,9 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
+    <deploymentStatus>InDevelopment</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
@@ -55,12 +54,40 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
     <fields>
         <fullName>Name</fullName>
-        <externalId>false</externalId>
         <label>Name</label>
         <length>80</length>
         <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Phone</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address__c</fullName>
+        <label>Address</label>
+        <length>255</length>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
@@ -71,7 +98,6 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <mktDataTranslation>false</mktDataTranslation>
     <pluralLabel>Customers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>

@@ -42,10 +42,14 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+     <deploymentStatus>InDevelopment</deploymentStatus>
+     <nameField>
+         <label>Name</label>
+         <type>Text</type>
+     </nameField>
+     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableChangeDataCapture>false</enableChangeDataCapture>
+
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
@@ -54,14 +58,24 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Duplicate Audit</label>
+     <externalSharingModel>Private</externalSharingModel>
+     <fields>
+         <fullName>Name</fullName>
+         <label>Name</label>
+         <length>80</length>
+         <required>true</required>
+         <trackHistory>false</trackHistory>
+         <type>Text</type>
+         <unique>true</unique>
+     </fields>
+
+     <label>Duplicate Audit</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <mktDataTranslation>false</mktDataTranslation>
+
     <pluralLabel>Duplicate Audits</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
