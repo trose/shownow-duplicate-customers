@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Customer__c</members>
+        <members>Duplicate_Audit__c</members>
+        <members>Duplicate_Match__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Customer__c.Address__c</members>
+        <members>Customer__c.Email__c</members>
+        <members>Customer__c.Phone__c</members>
+        <members>Duplicate_Audit__c.Action__c</members>
+        <members>Duplicate_Audit__c.Details__c</members>
+        <members>Duplicate_Audit__c.Timestamp__c</members>
+        <members>Duplicate_Audit__c.User__c</members>
+        <members>Duplicate_Match__c.Customer1__c</members>
+        <members>Duplicate_Match__c.Customer2__c</members>
+        <members>Duplicate_Match__c.Match_Score__c</members>
+        <members>Duplicate_Match__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>DuplicateMatcher</members>
+        <members>DuplicateRestService</members>
+        <members>TestDuplicateMatcher</members>
+        <members>TestDuplicateRestService</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CustomerTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>65.0</version>
+</Package>

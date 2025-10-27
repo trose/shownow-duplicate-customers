@@ -1,0 +1,32 @@
+{
+  "name": "shownow-duplicate-customers",
+  "version": "1.0.0",
+  "description": "This is a monorepo for Salesforce and React components to handle duplicate customer records.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "eslint --config src/react/.eslintrc.json src/react --ext .js,.jsx,.ts,.tsx",
+    "test": "npm run test:react && npm run test:salesforce",
+    "test:react": "jest --passWithNoTests",
+    "test:salesforce": "sf apex run test --result-format human --code-coverage --target-org duplicate-customers-scratch",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "src/react/**/*.{js,jsx,ts,tsx}": [
+      "eslint --config src/react/.eslintrc.json --fix"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "eslint": "^9.38.0",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "lint-staged": "^15.5.2"
+  }
+}
